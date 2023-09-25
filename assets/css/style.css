@@ -42,3 +42,9 @@ body {
   width: 100%;
   height: 500px;
 }
+
+.carrusel h1 {
+  color: #ffffffb6;
+  text-align: center;
+  padding: 20px;
+}
