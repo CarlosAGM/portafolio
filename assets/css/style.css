@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Kenia&display=swap");
+
 body {
   background-color: black;
 }
@@ -59,13 +61,14 @@ body {
   font-size: 80px;
   color: rgba(255, 193, 7, 0.664);
   text-align: center;
-  padding: 20px;
+  padding-top: 150px;
 }
 
 .fotos {
   display: flex;
   width: 600px;
   height: 500px;
+  padding-top: 50px;
 }
 
 .fotos img {
@@ -111,6 +114,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .fuerzaAereaInfo {
@@ -138,6 +142,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 50px;
 }
 
 .informatica img {
@@ -165,4 +170,41 @@ body {
 
 .iconos a {
   margin: 10px;
+}
+
+.habilidades h2 {
+  color: #ffffffb6;
+  font-size: 60px;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.iconHabilidades {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.iconHabilidades img {
+  width: 80px;
+  margin: 20px;
+}
+
+.iconHabilidades img:hover {
+  transform: scale(1.8);
+}
+
+.container-fluid {
+  background-color: black;
+}
+
+#contactame {
+  font-size: 80px;
+  color: rgba(255, 193, 7, 0.664);
+  padding-top: 150px;
+}
+
+.formNom {
+  display: flex;
+  color: rgba(255, 255, 255, 0.527);
 }

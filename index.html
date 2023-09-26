@@ -14,6 +14,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+
     <title>CarlosAGM</title>
   </head>
   <body>
@@ -36,7 +37,7 @@
                 >Sobre mí&gt;</a
               >
               <a class="nav-link" href="#proyectos">Proyectos&gt;</a>
-              <a class="nav-link" href="#">Contacto</a>
+              <a class="nav-link" href="#contactame">Contacto</a>
             </div>
           </div>
         </div>
@@ -120,6 +121,19 @@
           </div>
         </div>
       </article>
+      <article class="habilidades">
+        <h2>!&gt;Habilidades</h2>
+        <div class="iconHabilidades">
+          <img src="assets/img/piton.png" alt="" srcset="" />
+          <img src="assets/img/js.png" alt="" srcset="" />
+          <img src="assets/img/nodo-js.png" alt="" srcset="" />
+          <img src="assets/img/html-5.png" alt="" srcset="" />
+          <img src="assets/img/css-3.png" alt="" srcset="" />
+          <img src="assets/img/mariadb.png" alt="" srcset="" />
+          <img src="assets/img/mysql.png" alt="" srcset="" />
+          <img src="assets/img/Kali.png" alt="" srcset="" />
+        </div>
+      </article>
     </div>
     <div class="carrusel">
       <h1 id="proyectos">Proyectos Realizados</h1>
@@ -142,7 +156,40 @@
         </section>
       </div>
     </div>
-
+    <section class="container-fluid">
+      <div class="row bg-transparent justify-content-center">
+        <div class="col-5 text-center">
+          <br />
+          <h5 class="pb-2" id="contactame">Contáctame</h5>
+          <form class="px-xs-0 px-md-5">
+            <h3 class="formNom">Nombre</h3>
+            <input
+              class="form-control bg-dark text-white"
+              type="text"
+              placeholder="Nombre"
+            />
+            <br />
+            <h3 class="formNom">Email</h3>
+            <input
+              class="form-control bg-dark text-white"
+              type="email"
+              placeholder="Correo electronico"
+            />
+            <br />
+            <h3 class="formNom">Motivo</h3>
+            <textarea
+              class="form-control bg-dark text-white"
+              id="validationTextarea"
+              placeholder="asdadasad"
+              required
+            ></textarea>
+            <button type="button" class="btn btn-warning mb-3 mt-3">
+              Enviar
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
     <footer class="piePagina">
       <p>Contáctame en carlos.aguero.marquizani@gmail.com</p>
     </footer>
